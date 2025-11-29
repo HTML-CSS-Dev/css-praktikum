@@ -1,0 +1,120 @@
+
+/* 
+sm	40rem (640px)	@media (width >= 40rem) { ... }  320px - 640 - mobile 
+md	48rem (768px)	@media (width >= 48rem) { ... }  640 - 768 - tablet
+lg	64rem (1024px)	@media (width >= 64rem) { ... }  768 - 1024 - katta tablet va pc
+xl	80rem (1280px)	@media (width >= 80rem) { ... }  1024 - 1280 - katta tablet va pc
+2xl	96rem (1536px)	@media (width >= 96rem) { ... }  1280 - 1536 - pc
+*/
+
+/* katta tablet va pc */
+@media (max-width:1280px) {
+    .container {
+    padding:0 20px;
+    width: 100%;
+    }
+
+/* navigation left */
+.nav-left {
+    gap:50px;
+}
+
+.nav-list {
+    gap:25px;
+}
+
+.nav-list-items {
+    font-size:20px;
+}
+
+/* navigation right */
+.nav-right {
+    gap:40px;
+}
+
+.nav-buttons {
+    gap:10px;    
+}
+
+.input-src {
+    padding:12px 10px 12px 10px;
+}
+
+}
+
+
+/* 1237px */
+
+@media (max-width:1024px) {
+
+/* navigation left */
+.nav-left {
+    gap:40px;
+}
+
+/* navaigation right */
+.nav-list {
+    gap:20px;
+}
+
+.nav-list-items {
+    font-size:18px;
+}
+
+.nav-buttons {
+    display: none;   
+}
+
+.input-src {
+    width:150px;
+}
+
+}
+
+@media (max-width:767px) {
+
+.nav-left {
+    gap:20px;
+}
+
+.nav-left {
+    img {
+        height:40px;
+    }
+}
+
+/* navaigation right */
+.nav-list {
+    gap:15px;
+}
+
+.nav-list-items {
+    font-size:16px;
+}
+
+.input-src {
+    padding:10px;
+}
+
+.search {
+    padding:8px 0px 8px 15px; 
+}
+
+}
+
+
+@media (max-width:640px) {
+    /* navigarion left */
+    .nav-list {
+        display: none;
+    }
+
+    /* navigation right */
+    .form {
+        display: none;
+    }
+
+    .burger-btn {
+        display: block;
+    }
+}
