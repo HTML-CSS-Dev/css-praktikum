@@ -1,0 +1,73 @@
+
+@media (max-width:1024px) {
+
+/* navigation left */
+.nav-left {
+    gap:40px;
+}
+
+/* navaigation right */
+.nav-list {
+    gap:20px;
+}
+
+.nav-list-items {
+    font-size:18px;
+}
+
+.nav-buttons {
+    display: none;   
+}
+
+.input-src {
+    width:150px;
+}
+
+
+
+/* footer */
+.footer {
+    padding:39px 0;
+}
+
+.socials-description , .categories-list  {
+    font:700 20px 'Causten';
+}
+
+.nav-info-wrapper {
+    padding:0;
+    gap:15px
+}
+
+.nav-info-list {
+    gap:10px;
+}
+
+.nav-info-list-items {
+    font:500 14px 'Causten';
+}
+
+.nav-info-list-items-bigger {
+    font:700 20px 'Causten';
+    margin-bottom:13px;
+}
+
+/* social media */
+.socials-wrapper {
+    justify-content: space-between;
+    gap:0;
+    padding:0;
+}
+
+.selector-wrapper { 
+    padding: 27px 30px 27px 0px ; 
+    margin: 39px 0;
+}
+
+/* copyright */
+.copyrights {
+    font:700 14px 'Causten';
+}
+
+
+}

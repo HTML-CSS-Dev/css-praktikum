@@ -4,5 +4,11 @@
 /* header */
 @import url(header/nav.css);
 
+/* footer */
+@import url(footer/footer.css);
+
 /* media */
-@import url(responsivness/media.css);
+@import url(responsivness/laptop.css);
+@import url(responsivness/large_tablet.css);
+@import url(responsivness/tablet.css);
+@import url(responsivness/mobile.css);

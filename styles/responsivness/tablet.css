@@ -1,0 +1,30 @@
+@media (max-width:767px) {
+
+.nav-left {
+    gap:20px;
+}
+
+.nav-left {
+    img {
+        height:40px;
+    }
+}
+
+/* navaigation right */
+.nav-list {
+    gap:15px;
+}
+
+.nav-list-items {
+    font-size:16px;
+}
+
+.input-src {
+    padding:10px 10px 9px ;
+}
+
+.search {
+    padding:8px 0px 8px 15px; 
+}
+
+}

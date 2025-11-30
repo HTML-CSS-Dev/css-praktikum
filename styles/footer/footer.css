@@ -1,0 +1,115 @@
+.footer {
+    background:#3C4242;
+    padding:59px 0;
+}
+
+/* mixins */
+.nav-info-wrapper , .nav-info-list , .socials-wrapper, .socials-left, .installing-programs , .installing-programs-left , .installing-programs-right , .selector-wrapper {
+    display:flex;
+}
+
+.nav-info-list-items , .socials-btn , .socials-description , .categories-list {
+    color:#F6F6F6;
+}
+
+.installing-content , .copyrights {
+    color: #ffffff;
+}
+
+.socials-description , .categories-list  {
+    font:700 28px 'Causten';
+}
+
+.nav-info-wrapper , .socials-wrapper {
+    padding: 0 85px;
+}
+
+/* nav - info */
+.nav-info-wrapper {
+    justify-content:space-between;
+}
+
+.nav-info-list {
+    flex-direction:column;
+    gap:15px;
+}
+
+.nav-info-list-items {
+    list-style:none;
+    font:500 18px 'Causten';
+}
+
+.nav-info-list-items-bigger {
+    font:700 28px 'Causten';
+    margin-bottom:20px;
+}
+
+/* social media */
+.socials-wrapper {
+    gap:500px;
+}
+
+.socials-left {
+    gap:9px;
+    align-self: flex-end;
+}
+
+.socials-btn {
+    width:37px;
+    height:37px;
+    border-radius:10px;
+    border:none;
+}
+
+.facebook-img {
+    margin-top:5px;
+}
+
+.instagram-img {
+    margin-top:4px;
+}
+
+.twitter-img {
+    margin-top: 5px;
+}
+
+.in-img {
+    margin-top:2px;
+}
+
+.installing-programs {
+    gap:21px;
+    margin-top:30px;
+}
+
+.installing-content {
+    font:400 10px 'Causten';
+}
+
+.app-name { 
+    font-size:18px;
+}
+
+.installing-programs-left , .installing-programs-right {
+    gap:9px;
+    width:153px;
+    height:51px;
+    background: #404040;
+    padding:9px;
+    border-radius:10px;
+}
+
+/* selectors */
+.selector-wrapper {
+    justify-content:space-between;
+    padding: 27px 50px 27px 85px ; 
+    border-top:1px solid #BEBCBD;
+    border-bottom:1px solid #BEBCBD;
+    margin: 49px 0;
+}
+
+/* copyright */
+.copyrights {
+    text-align:center;
+    font:700 18px 'Causten';
+}
