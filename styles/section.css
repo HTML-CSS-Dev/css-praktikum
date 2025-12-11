@@ -1,0 +1,63 @@
+.heading , .author-description , .content-block{
+    --primary-color:rgba(255, 255, 255, 1);
+    color:var(--primary-color);
+}
+
+
+.max-container {
+    background:url(../assets/img/background.png) right bottom / 60% 80% no-repeat ;
+    max-width:1920px;
+    margin: auto;
+}
+
+.course-author {
+    background: linear-gradient(286.41deg, #022335 3.63%, #043A41 90.98%);
+}
+
+.wrapper {
+    display:flex;
+    gap:86px
+}
+
+.course-author-left {
+    padding:147px 0;
+}
+
+.heading {
+    font:54px / 100% myFont
+}
+
+.content-block {
+    margin-top:67px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    font:15px / 24px
+}
+
+.course-author-right {
+    position:relative;
+}
+
+.author-img {
+    position:absolute;
+    bottom:0;
+}
+
+.author-name {
+    font-size: 24px;
+    color: rgba(0, 224, 255, 1);
+    font:20px 750
+} 
+
+.author-description {
+    margin-top: 7px;
+    font: 450 14px / 20px 
+}
+
+.author-content {
+    position:absolute;
+    bottom:100px;
+    left:250px;
+    width: 194px;
+}

@@ -1,14 +1,4 @@
-/* base */
-@import url(base/base.css);
-
-/* header */
-@import url(header/nav.css);
-
-/* footer */
-@import url(footer/footer.css);
-
-/* media */
-@import url(responsivness/laptop.css);
-@import url(responsivness/large_tablet.css);
-@import url(responsivness/tablet.css);
-@import url(responsivness/mobile.css);
+@import url(./base.css);
+@import url(./section.css);
+@import url(./tablet.css);
+@import url(./mobile.css);

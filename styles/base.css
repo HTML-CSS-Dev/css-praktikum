@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: myFont;
+    font-weight:450;
+    src:url(../assets/fonts/avenirnextcyr-bold.ttf)
+}

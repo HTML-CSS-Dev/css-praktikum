@@ -1,0 +1,117 @@
+@media (min-width:470px) and (max-width:640px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .max-container {
+        background:url(../assets/img/background.png) bottom / 100% 40% no-repeat ;
+    }
+
+    .course-author {
+        max-height: 1500px;
+    }
+
+    .course-author-left {
+        padding:100px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:120px 0;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+    
+    .wrapper {
+        display:flex;
+        gap:410px
+    }
+
+    .author-img {
+        height:500px;
+        width:315px;
+        transform: translateY(10px);
+
+        /* transform: translate(100px,45px); */
+    }
+
+    .course-author-right {
+        display:flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:470px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .max-container {
+        background:url(../assets/img/background.png) bottom / 100% 40% no-repeat ;
+    }
+
+    .course-author {
+        max-height: 1500px;
+    }
+
+    .course-author-left {
+        padding:60px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+    
+    .wrapper {
+        display:flex;
+        gap:410px
+    }
+
+    .author-img {
+        height:500px;
+        width:260px;
+        transform: translateY(10px);
+
+        /* transform: translate(100px,45px); */
+    }
+
+    .course-author-right {
+        display:flex;
+        justify-content: center;
+    }
+
+    .author-content {
+        position:absolute;
+        bottom:100px;
+        left:130px;
+        width: 194px;
+}
+
+    .heading {
+        font-size: 34px;
+    }
+
+    
+    .content-block {
+        margin-top:47px;
+        font-size: 14px;
+}
+
+
+.author-name {
+    font-size: 20px;
+} 
+
+.author-description {
+    margin-top: 7px;
+    font: 450 14px / 20px 
+}
+
+}
